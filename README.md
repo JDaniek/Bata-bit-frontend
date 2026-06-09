@@ -5,5 +5,5 @@ Esta es una practica  de diseño web poniendo en practica mobile first, con el o
 -HTML
 -CSS
 
-#InspiraaciónÑ
+#Inspiraación:
 https://www.figma.com/design/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44-421&t=nSM61enkhcXIOWVc-0
