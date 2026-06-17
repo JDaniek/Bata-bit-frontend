@@ -21,7 +21,7 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-header{
+header {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -30,16 +30,17 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, var(--black) 16.69%, var(--bitcoin-orange) 100%);
 }
 
-header img{
+header img {
     width: 150px;
     height: 24px;
     margin-top: 60px;
     align-self: center;
 }
 
-.header__title-container{
+.header__title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
