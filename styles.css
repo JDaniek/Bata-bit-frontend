@@ -21,6 +21,12 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
 header {
     position: relative;
     display: flex;
@@ -90,4 +96,12 @@ header img {
     margin-left: 10px;
     background-image: url('./assets/icons/arrow_down.svg');
     background-position: center;
+}
+
+.main__exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
 }
