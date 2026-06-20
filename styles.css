@@ -179,6 +179,7 @@ header img {
 .table__row .table__price{
     color: var(--grey-second);
     font-weight: normal;
+    text-align: center;
 }
 
 .table__row span {
@@ -192,4 +193,22 @@ header img {
 
 .table__row .price__down {
     background-image: url('/assets/icons/trending-down.svg');
+}
+
+.table__tag{
+    width: 90%;
+    margin: 15px 0;
+    text-align: center;
+    background-color:#FFE9D4;
+    padding: 1rem;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.table__tag p{
+    font-weight: bold;
+}
+
+.table__tag .tag__date{
+    font-weight: normal
 }
