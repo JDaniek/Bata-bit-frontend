@@ -6,6 +6,7 @@
     --warm-black: #282623;
     --black: #201e1c;
     --grey: #bababa;
+    --grey-second:#757575;
     --off-white: #faf8f7;
     --just-white: #fff;
 }
@@ -137,7 +138,7 @@ header img {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color:var(--grey-second);
 }
 
 .main__info {
@@ -168,6 +169,16 @@ header img {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 20px;
+}
+
+.table__row p{
+    font-weight: bold;
+    color: var(--grey);
+}
+
+.table__row .table__price{
+    color: var(--grey-second);
+    font-weight: normal;
 }
 
 .table__row span {
