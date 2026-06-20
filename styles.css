@@ -21,7 +21,7 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-main{
+main {
     width: 100%;
     height: auto;
     background-color: var(--off-white);
@@ -98,7 +98,7 @@ header img {
     background-position: center;
 }
 
-.main__exchange-container{
+.main__exchange-container {
     width: 100%;
     height: auto;
     padding-top: 80px;
@@ -106,14 +106,14 @@ header img {
     text-align: center;
 }
 
-.main__exchange-container-title{
+.main__exchange-container-title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.main__exchange-background{
+.main__exchange-background {
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -124,7 +124,7 @@ header img {
     background-repeat: no-repeat;
 }
 
-.main__exchange-container h2{
+.main__exchange-container h2 {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -132,40 +132,53 @@ header img {
     color: var(--black);
 }
 
-.main__exchange-container p{
+.main__exchange-container p {
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color:#757575 ;
+    color: #757575;
 }
 
-.main__info{
+.main__info {
     font-size: 1.4rem;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
-.main__table{
+
+.main__info h2 {
+    color: var(--bitcoin-orange);
+    margin-bottom: 20px;
+}
+
+.main__table {
+    border-radius: 10px;
     padding: 15px;
     display: grid;
     background-color: var(--just-white);
-    margin: 0 auto;
-    width: 60%;
-    grid-template-rows: repeat(4,auto);
-    gap: 8px;
+    grid-template-rows: repeat(4, auto);
+    gap: 16px;
+    justify-content: center;
 }
 
-.table__row{
+.table__row {
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 30px;
-    gap: 8px;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
 }
 
-.table__prices{
-    text-align: center;
-}
-
-.table__row span{
+.table__row span {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
     background-image: url('/assets/icons/trending-up.svg');
+    background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
+}
+
+.table__row .price__down {
+    background-image: url('/assets/icons/trending-down.svg');
 }
