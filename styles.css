@@ -6,7 +6,7 @@
     --warm-black: #282623;
     --black: #201e1c;
     --grey: #bababa;
-    --grey-second:#757575;
+    --grey-second: #757575;
     --off-white: #faf8f7;
     --just-white: #fff;
 }
@@ -138,10 +138,12 @@ header img {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color:var(--grey-second);
+    color: var(--grey-second);
 }
 
 .main__info {
+    width: 100%;
+    max-width: 400px;
     font-size: 1.4rem;
     padding: 0 60px;
     display: flex;
@@ -161,7 +163,6 @@ header img {
     background-color: var(--just-white);
     grid-template-rows: repeat(4, auto);
     gap: 16px;
-    justify-content: center;
 }
 
 .table__row {
@@ -171,12 +172,12 @@ header img {
     gap: 20px;
 }
 
-.table__row p{
+.table__row p {
     font-weight: bold;
     color: var(--grey);
 }
 
-.table__row .table__price{
+.table__row .table__price {
     color: var(--grey-second);
     font-weight: normal;
     text-align: center;
@@ -195,25 +196,25 @@ header img {
     background-image: url('/assets/icons/trending-down.svg');
 }
 
-.table__tag{
+.table__tag {
     width: 90%;
     margin: 15px 0;
     text-align: center;
-    background-color:#FFE9D4;
+    background-color: #FFE9D4;
     padding: 1rem;
     border-radius: 10px;
     align-self: center;
 }
 
-.table__tag p{
+.table__tag p {
     font-weight: bold;
 }
 
-.table__tag .tag__date{
+.table__tag .tag__date {
     font-weight: normal
 }
 
-.product__detail-container{
+.product__detail-container {
     position: relative;
     width: 100%;
     min-width: 320px;
@@ -222,7 +223,7 @@ header img {
     background-color: var(--warm-black);
 }
 
-.product__detail-logo{
+.product__detail-logo {
     position: absolute;
     width: 40px;
     height: 25px;
@@ -230,4 +231,27 @@ header img {
     left: calc(50% - 20px);
     background-image: url('/assets/icons/potato-top.svg');
     background-repeat: no-repeat;
+}
+
+.product__detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.product__detail-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: var(--just-white);
+}
+
+.product__detail-title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: var(--grey-second);
+    font-weight: 500;
+    line-height: 1.8rem;
 }
