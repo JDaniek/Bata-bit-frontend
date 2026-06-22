@@ -256,7 +256,7 @@ header img {
     line-height: 1.8rem;
 }
 
-.products__cards{
+.product__card{
     width: 100%;
     min-width: 288px;
     max-width: 400px;
@@ -266,4 +266,10 @@ header img {
     background-color: var(--warm-black);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.icon{
+    display: inline-block;
+    width: 20px;
+    height: 10px;
 }
