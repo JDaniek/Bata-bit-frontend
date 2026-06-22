@@ -220,7 +220,7 @@ header img {
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background-color: var(--warm-black);
+    background-color: var(--black);
 }
 
 .product__detail-logo {
@@ -254,4 +254,16 @@ header img {
     color: var(--grey-second);
     font-weight: 500;
     line-height: 1.8rem;
+}
+
+.products__cards{
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
