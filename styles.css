@@ -289,3 +289,13 @@ header img {
     line-height: 1.8rem;
     color: var(--grey-second);
 }
+
+.banner__img{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('/assets/images/bitcoinbaby.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
