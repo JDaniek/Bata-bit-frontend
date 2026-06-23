@@ -257,7 +257,7 @@ header img {
     line-height: 1.8rem;
 }
 
-.product__card{
+.product__card {
     width: 100%;
     min-width: 288px;
     max-width: 400px;
@@ -269,14 +269,14 @@ header img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.icon{
+.icon {
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-bottom: 10px;
 }
 
-.product__card-title{
+.product__card-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -284,14 +284,14 @@ header img {
     color: var(--just-white);
 }
 
-.product__card-body{
+.product__card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--grey-second);
 }
 
-.banner__img{
+.banner__img {
     width: 100%;
     min-width: 320px;
     height: 50vh;
@@ -301,11 +301,41 @@ header img {
     background-repeat: no-repeat;
 }
 
-.banner__img h2{
+.banner__img h2 {
     padding-top: 60px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.8rem;
     color: var(--just-white);
     text-align: center;
+}
+
+.main__plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.planes__title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.planes__title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.planes__title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
 }
