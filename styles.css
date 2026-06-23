@@ -299,3 +299,12 @@ header img {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.banner__img h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    color: var(--just-white);
+    text-align: center;
+}
