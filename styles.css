@@ -341,7 +341,7 @@ header img {
     color: var(--grey-second);
 }
 
-.planes__card{
+.planes__card {
     position: relative;
     width: 70%;
     min-width: 230px;
@@ -349,12 +349,12 @@ header img {
     height: 250px;
     margin: 50px auto 0;
     padding: 0 15px;
-    background-color:var(--just-white);
+    background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.recomend{
+.recomend {
     position: absolute;
     width: 120px;
     height: 31px;
@@ -367,14 +367,14 @@ header img {
     color: var(--just-white);
 }
 
-.plan__title{
+.plan__title {
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     color: var(--black);
 }
 
-.plan__card-price{
+.plan__card-price {
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
@@ -382,13 +382,35 @@ header img {
     color: var(--black);
 }
 
-.plan__card-price span{
+.plan__card-price span {
     font-size: 1.2rem;
     font-weight: 300;
     vertical-align: 25px;
 }
 
-.plan__saved{
+.plan__saved {
     color: var(--grey-second);
     font-size: 1.2rem;
+}
+
+.plan__call-to-action {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--just-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan__call-to-action span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/assets/icons/arrow-right.svg');
+    vertical-align: text-bottom;
 }
