@@ -341,6 +341,11 @@ header img {
     color: var(--grey-second);
 }
 
+.planes__container-slider{
+    display: flex;
+    height: 320px;
+    overflow-x: scroll;
+}
 .planes__card {
     position: relative;
     width: 70%;
