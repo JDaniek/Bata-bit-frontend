@@ -345,10 +345,13 @@ header img {
     display: flex;
     height: 320px;
     overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    gap: 50px;
 }
 .planes__card {
     position: relative;
     width: 70%;
+    scroll-snap-align: center;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
