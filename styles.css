@@ -365,6 +365,7 @@ header img {
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
+    line-height: 1.8rem;
 }
 
 .plan__title {
